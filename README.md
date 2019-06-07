@@ -2,11 +2,11 @@
 
 TRAA website project
 
-##Course
+## Course
 
 IDP3 - Interactive Media Design
 
-##Contributors
+## Contributors
 
-- **Al-Osman Nour**(designer),
+- **Al-Osman Nour**(designer)
 - **Zavizenov Gleb**(developer)
