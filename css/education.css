@@ -1,0 +1,58 @@
+/* Education Page */
+.authorities-section{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top:70px;
+  width:1200px;
+
+}
+
+.authorities-left{
+  width:50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.authorities-left-title{
+  color: #000000;
+  font-family: "Zilla Slab";
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom:60px;
+  text-align:center;
+}
+
+.authorities-left-links-list{
+  text-align: center;
+}
+
+.authorities-left-links-item{
+  margin-bottom: 20px;
+}
+
+.authorities-left-link{
+  color: #000000;
+  font-family: Nunito;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.authorities-left-link:hover{
+  transition:0.5s;
+  color:#F5D229;
+}
+
+.authorities-right{
+  width:50%;
+  display:flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.authorities-right-image{
+  width:100%;
+}
