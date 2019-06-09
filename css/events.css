@@ -1,4 +1,8 @@
 /* Additional styles for events page */
+.broken-image{
+  transform:rotate(180deg);  
+}
+
 .header-links-events{
   color:#000000;
 }
@@ -22,7 +26,7 @@
 }
 
 .hero-options-container{
-  width:1000px;
+  width:800px;
   display:flex;
   justify-content: space-between;
 }

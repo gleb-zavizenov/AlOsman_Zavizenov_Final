@@ -79,9 +79,10 @@ body {
 .hero{
   height:100vh;
   width:100%;
-  background-image: url("../images/first-bg.jpg");
+  background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 50% 70%;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -182,11 +183,13 @@ body {
 
 .left-event-photo{
   width:500px;
+  height:300px;
   overflow:hidden;
 }
 
 .left-event-img{
   width:100%;
+  height:100%;
 }
 
 .left-event-description{
@@ -275,12 +278,14 @@ body {
 
 .left-project-image{
   width:100%;
+  height:400px;
   overflow:hidden;
   margin-bottom: 30px;
 }
 
 .left-project-image-link{
   width:100%;
+  height:100%;
 }
 
 .left-project-title{

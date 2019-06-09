@@ -56,3 +56,128 @@
 .authorities-right-image{
   width:100%;
 }
+
+/* Retailers Section */
+.retailers-shops{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+
+.retailer-shop{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.retailer-title{
+  color: #000000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom:5px;
+}
+
+.retailer-text{
+  color: #000000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: regular;
+}
+
+/* Conservation Zanes Section */
+.conservations-zones{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.conservations-zones-line{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content:space-between;
+  width:100%;
+  margin-bottom:50px;
+}
+
+.conservation-zone-item-title{
+  color: #000000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:center;
+  margin-bottom:15px;
+}
+
+.conservation-zone-item-text{
+  color: #000000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: regular;
+  text-align:center;
+}
+
+/* Fishing Links Section */
+.fishing-links-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fishing-links-left{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+
+.fishing-links-left-link{
+  text-decoration: none;
+  color: #000000;
+  font-family: Nunito;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom:30px;
+}
+
+.fishing-links-left-link:hover{
+  color:#F5D229;
+  transition: 0.5s;
+}
+
+.fishing-links-center{
+  width:400px;
+  height:400px;
+}
+
+.fishing-links-center-img{
+  width:100%;
+  height:100%;
+}
+
+/* Videos Section */
+.videos-content{
+  display:flex;
+  flex-direction: column;
+  width:1200px;
+}
+
+.videos-line{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom:70px;
+}
+
+.videos-link{
+  width:550px;
+  height:350px;
+  overflow:hidden;
+  background-color: red;
+}
