@@ -1,6 +1,24 @@
+// Showing and hiding mobile navigation
+let closeButton = document.querySelector('#close-img'),
+    hamburgerButton = document.querySelector('#hamburger-icon'),
+    mobileNav = document.querySelector('.mobile-nav'),
+    mobileNavItems = document.querySelectorAll('.mobile-nav-link');
 
+mobileNavItems.forEach(navItem => {
+  navItem.addEventListener('click', function(e){
+    mobileNav.classList.remove('mobile-nav-active');
+  });
+});
 
-//console.log("JS works!")
+closeButton.addEventListener('click', function(e){
+  mobileNav.classList.remove('mobile-nav-active');
+});
+
+hamburgerButton.addEventListener('click', function(e){
+  mobileNav.classList.add('mobile-nav-active');
+});
+
+// Slider on home page
 let sponsors = document.querySelectorAll(".sponsor"),
     nextBtn = document.getElementById("right-controller"),
     backBtn = document.getElementById("left-controller"),
