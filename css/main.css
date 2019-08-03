@@ -17,7 +17,7 @@ body {
   display:flex;
   flex-direction: column;
   justify-content: center;
-  width:300px;
+  width:18.75em;
 }
 
 .main{
@@ -35,7 +35,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items:center;
-  margin-top:10px;
+  margin-top:0.625em;
   width:100%;
 }
 
@@ -54,7 +54,7 @@ body {
   text-decoration: none;
   color:#ffffff;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 .header-links:hover{
@@ -63,8 +63,8 @@ body {
 }
 
 .header-center{
-  width:50px;
-  height:50px;
+  width:3.125em;
+  height:3.125em;
   display:flex;
   align-items:center;
   justify-content: center;
@@ -80,27 +80,28 @@ body {
 }
 
 .header-hamburger{
-  width:40px;
-  height:40px;
+  width:2.5em;
+  height:2.5em;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
 .hamburger-line{
-  width:40px;
-  height:5px;
+  width:2.5em;
+  height:0.3125em;
   background-color: #ffffff;
 }
 
 /* Mobile navigation */
 .mobile-nav{
-  position: absolute;
+  position: fixed;
   top:0;
+  left:0;
   z-index: 100000;
   background-color: #9ABD4B;
   width:100%;
-  height:3000px;
+  height:187.5em;
   display: none;
   flex-direction: column;
   align-items: center;
@@ -111,9 +112,9 @@ body {
 }
 
 .mobile-nav-close{
-  width:40px;
-  height:40px;
-  margin-top:16px;
+  width:2.5em;
+  height:2.5em;
+  margin-top:1em;
   margin-left:auto;
 }
 
@@ -128,13 +129,13 @@ body {
 }
 
 .mobile-nav-item{
-  margin-top:50px;
+  margin-top:3.125em;
 }
 
 .mobile-nav-link{
   color: #FFFFFF;
   font-family: "Zilla Slab";
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
@@ -142,7 +143,7 @@ body {
 
 /* Hero Section */
 .hero{
-  height:400px;
+  height:25em;
   width:100%;
   background-image: url("../images/hero-bg.png");
   background-repeat: no-repeat;
@@ -159,31 +160,30 @@ body {
   align-items: center;
   flex-direction: column;
   width:100%;
-  margin-top:40px;
+  margin-top:2.5em;
 }
 
 .hero-title{
   color: #FFFFFF;
   font-family: "Zilla Slab Medium";
-  font-size: 48px;
+  font-size: 1.875em;
   text-align: center;
 }
 
 .hero-subtitle{
   color: #FFFFFF;
   font-family: "Zilla Slab";
-  font-size: 24px;
+  font-size: 1.125em;
   font-weight: bold;
-  margin-top:30px;
+  margin-top:1.875em;
   text-align: center;
 }
 
 .hero-text{
-  display: none;
-  margin-top:20px;
+  margin-top:1.25em;
   color: #FFFFFF;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 0.875em;
   text-align: center;
 }
 
@@ -191,21 +191,21 @@ body {
   text-decoration: none;
   color: #FFFFFF;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: bold;
-  margin-top:30px;
-  width:270px;
+  margin-top:1.875em;
+  width:16.875em;
 }
 
 .filed-btn-inside{
   display:flex;
   align-items: center;
   justify-content: center;
-  height: 45px;
-  width: 270px;
+  height: 2.8125em;
+  width: 16.875em;
   background-color: #F5D229;
   color:#ffffff;
-  border-radius: 50px;
+  border-radius: 3.125em;
   text-align: center;
 }
 
@@ -225,35 +225,35 @@ body {
 .section-title{
   color: #000000;
   font-family: "Zilla Slab Medium";
-  font-size: 36px;
+  font-size: 2.25em;
   text-align:center;
-  margin-top:50px;
-  margin-bottom:40px;
+  margin-top:1.875em;
+  margin-bottom:1.25em;
 }
 
 .section-subtitle{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1em;
   font-weight:italic;
-  width:65%;
+  width:100%;
   text-align:center;
-  margin-top:-50px;
-  margin-bottom:60px;
+  margin-top:-3.125em;
+  margin-bottom:3.75em;
 }
 
 .left-event{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  max-width:1000px;
+  max-width:62.5em;
   align-items: center;
   justify-content: center;
 }
 
 .left-event-photo{
   width:100%;
-  height:200px;
+  height:12.5em;
   overflow:hidden;
 }
 
@@ -267,14 +267,14 @@ body {
   flex-direction:column;
   justify-content: center;
   align-items: center;
-  max-width: 550px;
-  margin-top:20px;
+  max-width: 34.375em;
+  margin-top:1.25em;
 }
 
 .left-event-description-title{
   color: #000000;
   font-family: "Zilla Slab";
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
 }
@@ -282,27 +282,27 @@ body {
 .left-event-description-date{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight:light-italic;
-  margin-top:10px;
+  margin-top:0.625em;
 }
 
 .left-event-description-text{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
-  margin-top:20px;
+  font-size: 1.125em;
+  margin-top:1.25em;
   width: 100%;
   text-align: center;
 }
 
 .left-event-description-btn{
-  margin-top:30px;
+  margin-top:1.875em;
 }
 
 .right-event{
-  margin-top:60px;
-  margin-bottom:60px;
+  margin-top:3.75em;
+  margin-bottom:3.75em;
   display:flex;
   flex-direction: column-reverse;
   justify-content: space-between;
@@ -317,14 +317,14 @@ body {
   justify-content: flex-end;
   align-items: center;
   width:100%;
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
 
 .right-event-description-text{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
-  margin-top:20px;
+  font-size: 1.125em;
+  margin-top:1.25em;
   text-align: center;
   width:100%;
 }
@@ -348,7 +348,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom:60px;
+  margin-bottom:3.75em;
 }
 
 .right-project{
@@ -359,7 +359,7 @@ body {
   width:100%;
   height:200px;
   overflow:hidden;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
 }
 
 .left-project-image-link{
@@ -369,7 +369,7 @@ body {
 .left-project-title{
   color: #000000;
   font-family: "Zilla Slab";
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
 }
@@ -378,13 +378,13 @@ body {
   text-align: center;
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
-  margin-top:20px;
+  font-size: 1.125em;
+  margin-top:1.25em;
   width:90%;
 }
 
 .left-project-button{
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
 
 /* Merchandise Section */
@@ -413,7 +413,7 @@ body {
 }
 
 .merchandise-btn{
-  margin-top:30px;
+  margin-top:1.875em;
 }
 
 /*Sponsors Section */
@@ -438,7 +438,7 @@ body {
 }
 
 .slider-container{
-  max-width:400px;
+  max-width:25em;
   overflow:hidden;
 }
 
@@ -448,8 +448,8 @@ body {
 
 .active-sponsor{
   display:flex;
-  top:20px;
-  left:50px;
+  top:1.25em;
+  left:3.125em;
   display:flex;
   flex-direction: column;
   align-items:center;
@@ -457,7 +457,7 @@ body {
 }
 
 .sponsor-image{
-  max-width:200px;
+  max-width:12.5em;
   overflow:hidden;
 }
 
@@ -468,9 +468,9 @@ body {
 .sponsor-title{
   color: #000000;
   font-family: "Zilla Slab";
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: bold;
-  margin-top:30px;
+  margin-top:1.875em;
   text-align: center;
   width:80%;
 }
@@ -478,19 +478,19 @@ body {
 .sponsor-description{
   color: #000000;
   font-family: Nunito;
-  font-size: 16px;
+  font-size: 1em;
   text-align:center;
   width:80%;
-  margin-top:15px;
+  margin-top:0.9375em;
 }
 
 .sponsor-selector{
-  margin-top:50px;
+  margin-top:3.125em;
   display:flex;
   justify-content: center;
   align-items: center;
   width:100%;
-  margin-bottom:40px;
+  margin-bottom:2.5em;
 }
 
 .sponsor-selector-list{
@@ -502,9 +502,9 @@ body {
 }
 
 .sponsor-selector-item{
-  width:20px;
-  height:20px;
-  border-radius:40px;
+  width:1.25em;
+  height:1.25em;
+  border-radius:2.5em;
   background-color:#F5D229;
 }
 
@@ -519,7 +519,7 @@ body {
 }
 
 .membership .section-subtitle{
-  margin-top: -10px;
+  margin-top: -0.625em;
 }
 
 .membership-content{
@@ -543,7 +543,7 @@ body {
   display:flex;
   align-items: center;
   justify-content: center;
-  margin-top:-20px;
+  margin-top:-1.25em;
 }
 
 .form-inside{
@@ -556,28 +556,28 @@ body {
 
 .form-text-input{
   width:100%;
-  border-radius: 20px;
-  padding:10px 0px 10px 0px;
-  height:20px;
+  border-radius: 1.25em;
+  padding:0.625em 0px 0.625em 0px;
+  height:1.25em;
   background-color: #ffffff;
   border:1px solid #F5D229;
-  margin-bottom:20px;
+  margin-bottom:1.25em;
   text-align: center;
 }
 
 .form-textarea{
   width:94%;
-  border-radius: 20px;
-  padding:10px 0px 10px 20px;
-  height:90px;
+  border-radius: 1.25em;
+  padding:0.625em 0px 0.625em 1.25em;
+  height:5.625em;
   background-color: #ffffff;
   border:1px solid #F5D229;
-  margin-bottom:20px;
+  margin-bottom:1.25em;
 }
 
 .form-btn{
   border:none;
-  margin-top:-5px;
+  margin-top:-0.3125em;
 }
 
 .form-btn:hover{
@@ -588,9 +588,9 @@ body {
 
 /* Footer Styling */
 .footer{
-  margin-top:60px;
+  margin-top:3.75em;
   width:100%;
-  max-height:800px;
+  max-height:50em;
   background-color: #2D3436;
   display: flex;
   align-items: center;
@@ -598,7 +598,7 @@ body {
 }
 
 .footer-container{
-  width:300px;
+  width:18.75em;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -610,30 +610,30 @@ body {
   display:flex;
   flex-direction: row;
   width:100%;
-  margin-top:25px;
+  margin-top:1.5625em;
 }
 
 .footer-block{
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-bottom:25px;
+  margin-bottom:1.5625em;
   width:30%;
 }
 
 .footer-block-title{
   color: #FEFFFF;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: bold;
-  margin-bottom:10px;
+  margin-bottom:0.625em;
 }
 
 .footer-block-text{
   color: #FEFFFF;
   font-family: Nunito;
-  font-size: 16px;
-  font-weight: regular;
+  font-size: 1em;
+  font-weight:regular;
 }
 
 .footer-middle{
@@ -645,35 +645,35 @@ body {
 }
 
 .footer-right{
-  margin-top:20px;
+  margin-top:1.25em;
   width:100%;
   display:flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom:25px;
+  margin-bottom:1.5625em;
 }
 
 .footer-block-title-big{
   font-family: "Zilla Slab";
-  font-size: 34px;
+  font-size: 2.125em;
   color:#ffffff;
   font-weight: bold;
-  margin-bottom:15px;
+  margin-bottom:0.9375em;
   text-align: center;
 }
 
 .footer-block-text-right{
   color: #FEFFFF;
   font-family: Nunito;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: regular;
   text-align: center;
-  line-height: 20px;
+  line-height: 1.25em;
 }
 
 .footer-block-btn{
-  margin-top:20px;
-  width:270px;
+  margin-top:1.25em;
+  width:100%;
 }
 }
 
@@ -697,7 +697,7 @@ body {
     display:flex;
     flex-direction: column;
     justify-content: center;
-    width:566px;
+    width:35.375em;
   }
   
   .main{
@@ -715,17 +715,18 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    margin-top:10px;
+    margin-top:0.625em;
     width:100%;
   }
   
   .header-left{
-    display: none;
-    width:33%;
+    display: flex;
+    width:39%;
   }
   
   .header-items{
     display: flex;
+    width:100%;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -734,7 +735,7 @@ body {
     text-decoration: none;
     color:#ffffff;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 1em;
   }
   
   .header-links:hover{
@@ -743,8 +744,8 @@ body {
   }
   
   .header-center{
-    width:50px;
-    height:50px;
+    width:100px;
+    height:100px;
     display:flex;
     align-items:center;
     justify-content: center;
@@ -755,32 +756,33 @@ body {
   }
   
   .header-right{
-    display: none;
-    width:33%;
+    display: flex;
+    width:39%;
   }
   
   .header-hamburger{
-    width:40px;
-    height:40px;
-    display: flex;
+    width:2.5em;
+    height:2.5em;
+    display: none;
     flex-direction: column;
     justify-content: space-evenly;
   }
   
   .hamburger-line{
-    width:40px;
-    height:5px;
+    width:2.5em;
+    height:0.3125em;
     background-color: #ffffff;
   }
   
   /* Mobile navigation */
   .mobile-nav{
-    position: absolute;
+    position: fixed;
     top:0;
+    left:0;
     z-index: 100000;
     background-color: #9ABD4B;
     width:100%;
-    height:3000px;
+    height:100%;
     display: none;
     flex-direction: column;
     align-items: center;
@@ -791,9 +793,9 @@ body {
   }
   
   .mobile-nav-close{
-    width:40px;
-    height:40px;
-    margin-top:16px;
+    width:2.5em;
+    height:2.5em;
+    margin-top:1em;
     margin-left:auto;
   }
   
@@ -808,13 +810,13 @@ body {
   }
   
   .mobile-nav-item{
-    margin-top:50px;
+    margin-top:3.125em;
   }
   
   .mobile-nav-link{
     color: #FFFFFF;
     font-family: "Zilla Slab";
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -822,7 +824,7 @@ body {
   
   /* Hero Section */
   .hero{
-    height:600px;
+    height:37.5em;
     width:100%;
     background-image: url("../images/hero-bg.png");
     background-repeat: no-repeat;
@@ -839,31 +841,29 @@ body {
     align-items: center;
     flex-direction: column;
     width:100%;
-    margin-top:110px;
+    margin-top:6.875em;
   }
   
   .hero-title{
     color: #FFFFFF;
     font-family: "Zilla Slab Medium";
-    font-size: 48px;
+    font-size: 3em;
     text-align: center;
-    margin-bottom:20px;
+    margin-bottom: 50px;
   }
   
   .hero-subtitle{
     color: #FFFFFF;
     font-family: "Zilla Slab";
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
-    margin-top:30px;
-    text-align: center;
   }
   
   .hero-text{
-    margin-top:10px;
+    margin-top:0.625em;
     color: #FFFFFF;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 1.125em;
     text-align: center;
   }
   
@@ -871,21 +871,21 @@ body {
     text-decoration: none;
     color: #FFFFFF;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: bold;
-    margin-top:30px;
-    width:270px;
+    margin-top:1.875em;
+    width:16.875em;
   }
   
   .filed-btn-inside{
     display:flex;
     align-items: center;
     justify-content: center;
-    height: 45px;
-    width: 270px;
+    height: 2.8125em;
+    width: 16.875em;
     background-color: #F5D229;
     color:#ffffff;
-    border-radius: 50px;
+    border-radius: 3.125em;
     text-align: center;
   }
   
@@ -896,37 +896,40 @@ body {
   
   /* Upcoming-events Section */
   .section-title{
-    color: #000000;
+    color: #5d7032;
     font-family: "Zilla Slab Medium";
-    font-size: 36px;
+    font-size: 2.25em;
     text-align:center;
-    margin-top:50px;
-    margin-bottom:40px;
+    margin-top:3em;
+    margin-bottom:2em;
   }
   
   .section-subtitle{
     color: #000000;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight:italic;
     width:65%;
     text-align:center;
-    margin-top:-50px;
-    margin-bottom:60px;
+    margin-bottom:3.75em;
+  }
+
+  .membership-title{
+    margin-bottom:0.8em;
   }
 
   .left-event{
     display:flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width:1000px;
+    max-width:62.5em;
     align-items: center;
     justify-content: center;
   }
   
   .left-event-photo{
     width:100%;
-    height:350px;
+    height:21.875em;
     overflow:hidden;
   }
   
@@ -940,14 +943,14 @@ body {
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    max-width: 550px;
-    margin-top:20px;
+    max-width: 34.375em;
+    margin-top:1.25em;
   }
   
   .left-event-description-title{
     color: #000000;
     font-family: "Zilla Slab";
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
   }
@@ -955,27 +958,27 @@ body {
   .left-event-description-date{
     color: #000000;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight:light-italic;
-    margin-top:10px;
+    margin-top:0.625em;
   }
   
   .left-event-description-text{
     color: #000000;
     font-family: Nunito;
-    font-size: 18px;
-    margin-top:20px;
+    font-size: 1.125em;
+    margin-top:1.25em;
     width: 100%;
     text-align: center;
   }
   
   .left-event-description-btn{
-    margin-top:30px;
+    margin-top:1.875em;
   }
   
   .right-event{
-    margin-top:60px;
-    margin-bottom:60px;
+    margin-top:3.75em;
+    margin-bottom:3.75em;
     display:flex;
     flex-direction: column-reverse;
     justify-content: space-between;
@@ -990,14 +993,14 @@ body {
     justify-content: flex-end;
     align-items: center;
     width:100%;
-    margin-top: 20px;
+    margin-top: 1.25em;
   }
   
   .right-event-description-text{
     color: #000000;
     font-family: Nunito;
-    font-size: 18px;
-    margin-top:20px;
+    font-size: 1.125em;
+    margin-top:1.25em;
     text-align: center;
     width:100%;
   }
@@ -1021,7 +1024,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom:60px;
+    margin-bottom:3.75em;
   }
   
   .right-project{
@@ -1030,9 +1033,9 @@ body {
   
   .left-project-image{
     width:100%;
-    height:350px;
+    height:21.875em;
     overflow:hidden;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em;
   }
   
   .left-project-image-link{
@@ -1042,7 +1045,7 @@ body {
   .left-project-title{
     color: #000000;
     font-family: "Zilla Slab";
-    font-size: 24px;
+    font-size: 1.5em;
     font-weight: bold;
     text-align: center;
   }
@@ -1051,13 +1054,13 @@ body {
     text-align: center;
     color: #000000;
     font-family: Nunito;
-    font-size: 18px;
-    margin-top:20px;
+    font-size: 1.125em;
+    margin-top:1.25em;
     width:90%;
   }
   
   .left-project-button{
-    margin-top: 20px;
+    margin-top: 1.25em;
   }
   
   /* Merchandise Section */
@@ -1089,7 +1092,7 @@ body {
   }
   
   .merchandise-btn{
-    margin-top:30px;
+    margin-top:1.875em;
   }
   
   /*Sponsors Section */
@@ -1106,7 +1109,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top:10px;
+    margin-top:0.625em;
   }
   
   .slider-controller-image{
@@ -1114,7 +1117,7 @@ body {
   }
   
   .slider-container{
-    max-width:400px;
+    max-width:25em;
     overflow:hidden;
   }
   
@@ -1124,8 +1127,8 @@ body {
   
   .active-sponsor{
     display:flex;
-    top:20px;
-    left:50px;
+    top:1.25em;
+    left:3.125em;
     display:flex;
     flex-direction: column;
     align-items:center;
@@ -1133,7 +1136,7 @@ body {
   }
   
   .sponsor-image{
-    max-width:200px;
+    max-width:12.5em;
     overflow:hidden;
   }
   
@@ -1144,9 +1147,9 @@ body {
   .sponsor-title{
     color: #000000;
     font-family: "Zilla Slab";
-    font-size: 20px;
+    font-size: 1.25em;
     font-weight: bold;
-    margin-top:30px;
+    margin-top:1.875em;
     text-align: center;
     width:80%;
   }
@@ -1154,19 +1157,19 @@ body {
   .sponsor-description{
     color: #000000;
     font-family: Nunito;
-    font-size: 16px;
+    font-size: 1em;
     text-align:center;
     width:80%;
-    margin-top:15px;
+    margin-top:0.9375em;
   }
   
   .sponsor-selector{
-    margin-top:50px;
+    margin-top:3.125em;
     display:flex;
     justify-content: center;
     align-items: center;
     width:100%;
-    margin-bottom:40px;
+    margin-bottom:2.5em;
   }
   
   .sponsor-selector-list{
@@ -1178,9 +1181,9 @@ body {
   }
   
   .sponsor-selector-item{
-    width:20px;
-    height:20px;
-    border-radius:40px;
+    width:1.25em;
+    height:1.25em;
+    border-radius:2.5em;
     background-color:#F5D229;
   }
   
@@ -1196,7 +1199,7 @@ body {
   
   .membership .section-subtitle{
     width:100%;
-    margin-top:-5px;
+    margin-top:-0.3125em;
   }
   
   .membership-content{
@@ -1204,7 +1207,7 @@ body {
     flex-direction: column;
     align-items:center;
     width: 100%;
-    margin-top:-20px;
+    margin-top:-1.25em;
   }
   
   .membership-photo{
@@ -1220,7 +1223,7 @@ body {
     display:flex;
     align-items: center;
     justify-content: center;
-    margin-top:20px;
+    margin-top:1.25em;
   }
   
   .form-inside{
@@ -1233,28 +1236,28 @@ body {
   
   .form-text-input{
     width:100%;
-    border-radius: 20px;
-    padding:10px 0px 10px 0px;
-    height:20px;
+    border-radius: 1.25em;
+    padding:0.625em 0px 0.625em 0px;
+    height:1.25em;
     background-color: #ffffff;
     border:1px solid #F5D229;
-    margin-bottom:20px;
+    margin-bottom:1.25em;
     text-align: center;
   }
   
   .form-textarea{
     width:94%;
-    border-radius: 20px;
-    padding:10px 0px 10px 20px;
-    height:90px;
+    border-radius: 1.25em;
+    padding:0.625em 0px 0.625em 1.25em;
+    height:5.625em;
     background-color: #ffffff;
     border:1px solid #F5D229;
-    margin-bottom:20px;
+    margin-bottom:1.25em;
   }
   
   .form-btn{
     border:none;
-    margin-top:5px;
+    margin-top:0.3125em;
   }
   
   .form-btn:hover{
@@ -1265,9 +1268,9 @@ body {
   
   /* Footer Styling */
   .footer{
-    margin-top:60px;
+    margin-top:3.75em;
     width:100%;
-    max-height:800px;
+    max-height:50em;
     background-color: #2D3436;
     display: flex;
     align-items: center;
@@ -1275,7 +1278,7 @@ body {
   }
   
   .footer-container{
-    width:566px;
+    width:35.375em;
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -1288,35 +1291,35 @@ body {
     display:flex;
     flex-direction: row;
     width:70%;
-    margin-top:25px;
+    margin-top:1.5625em;
   }
   
   .footer-block{
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin-bottom:25px;
+    margin-bottom:1.5625em;
     width:30%;
   }
   
   .footer-block-title{
     color: #FEFFFF;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 1.125em;
     font-weight: bold;
-    margin-bottom:10px;
+    margin-bottom:0.625em;
   }
   
   .footer-block-text{
     color: #FEFFFF;
     font-family: Nunito;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: regular;
   }
   
   .footer-middle{
     width:30%;
-    margin-top:25px;
+    margin-top:1.5625em;
   }
   
   .footer-middle-image{
@@ -1324,38 +1327,38 @@ body {
   }
   
   .footer-right{
-    margin-top:15px;
+    margin-top:0.9375em;
     flex-grow:1;
     width:100%;
     display:flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom:25px;
+    margin-bottom:1.5625em;
   }
   
   .footer-block-title-big{
     font-family: "Zilla Slab";
-    font-size: 34px;
+    font-size: 2.125em;
     color:#ffffff;
     font-weight: bold;
-    margin-bottom:15px;
+    margin-bottom:0.9375em;
     text-align: center;
   }
   
   .footer-block-text-right{
     color: #FEFFFF;
     font-family: Nunito;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: regular;
     text-align: center;
-    line-height: 20px;
+    line-height: 1.25em;
   }
   
   .footer-block-btn{
-    margin-top:20px;
-    width:270px;
+    margin-top:1.25em;
+    width:16.875em;
   }
-  }
+}
 
 /* Styles for desktop screens(more than 1200px) */
 @media screen and (min-width:1200px){
@@ -1399,7 +1402,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items:center;
-  margin-top:10px;
+  margin-top:0.625em;
   width:100%;
 }
 
@@ -1417,7 +1420,7 @@ body {
   text-decoration: none;
   color:#ffffff;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 .header-links:hover{
@@ -1426,7 +1429,7 @@ body {
 }
 
 .header-center{
-  width:200px;
+  width:12.5em;
   display:flex;
   align-items:center;
   justify-content: center;
@@ -1462,55 +1465,56 @@ body {
   justify-content: center;
   flex-direction: column;
   width:100%;
-  margin-top:60px;
+  margin-top:3.75em;
 }
 
 .hero-title{
   color: #FFFFFF;
   font-family: "Zilla Slab Medium";
-  font-size: 48px;
+  font-size: 3em;
 }
 
 .hero-subtitle{
   color: #FFFFFF;
   font-family: "Zilla Slab";
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
-  margin-top:60px;
+  margin-top:3.75em;
 }
 
 .hero-text{
-  margin-top:20px;
+  margin-top: 1.25em;
   color: #FFFFFF;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
 }
 
 .filled-btn-link{
   text-decoration: none;
   color: #FFFFFF;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: bold;
-  margin-top:30px;
-  width:270px;
+  margin-top:1.875em;
+  width:16.875em;
 }
 
 .filed-btn-inside{
   display:flex;
   align-items: center;
   justify-content: center;
-  height: 45px;
-  width: 270px;
+  height: 2.8125em;
+  width: 16.875em;
   background-color: #F5D229;
   color:#ffffff;
-  border-radius: 50px;
+  border-radius: 3.125em;
   text-align: center;
 }
 
 .filled-btn-link:hover .filed-btn-inside{
   background-color: #9ABD4B;
   transition: 0.5s ease;
+  box-shadow: 0px 4px 20px rgba(154, 189, 75, 0.5);
 }
 
 /* Upcoming-events Section */
@@ -1524,35 +1528,35 @@ body {
 .section-title{
   color: #000000;
   font-family: "Zilla Slab Medium";
-  font-size: 36px;
+  font-size: 2.25em;
   text-align:center;
-  margin-top:100px;
-  margin-bottom:70px;
+  margin-top:4em;
+  margin-bottom:3em;
 }
 
 .section-subtitle{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight:italic;
   width:65%;
   text-align:center;
-  margin-top:-50px;
-  margin-bottom:60px;
+  margin-top:-4em;
+  margin-bottom:3.75em;
 }
 
 .left-event{
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  width:1000px;
+  width:62.5em;
   align-items: center;
   justify-content: center;
 }
 
 .left-event-photo{
-  width:500px;
-  height:300px;
+  width:31.25em;
+  height:18.75em;
   overflow:hidden;
 }
 
@@ -1566,43 +1570,44 @@ body {
   flex-direction:column;
   justify-content: flex-start;
   align-items: start;
-  width: 600px;
-  margin-left:50px;
+  width: 37.5em;
+  margin-left:3.125em;
 }
 
 .left-event-description-title{
-  color: #000000;
+  color: #5d7032;
   font-family: "Zilla Slab";
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
 }
 
 .left-event-description-date{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight:light-italic;
-  margin-top:10px;
+  margin-top:0.625em;
 }
 
 .left-event-description-text{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
-  margin-top:20px;
+  font-size: 1.125em;
+  margin-top:1.25em;
+  font-weight: 300;
 }
 
 .left-event-description-btn{
-  margin-top:30px;
+  margin-top:1.875em;
 }
 
 .right-event{
-  margin-top:60px;
-  margin-bottom:60px;
+  margin-top:3.75em;
+  margin-bottom:3.75em;
   display:flex;
   flex-direction: row;
   justify-content: space-between;
-  width:1000px;
+  width:62.5em;
   align-items: center;
   justify-content: center;
 }
@@ -1612,15 +1617,15 @@ body {
   flex-direction:column;
   justify-content: flex-end;
   align-items: flex-end;
-  width: 600px;
-  margin-right:50px;
+  width: 37.5em;
+  margin-right:3.125em;
 }
 
 .right-event-description-text{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
-  margin-top:20px;
+  font-size: 1.125em;
+  margin-top:1.25em;
   text-align: right;
 }
 
@@ -1647,9 +1652,9 @@ body {
 
 .left-project-image{
   width:100%;
-  height:400px;
+  height:25em;
   overflow:hidden;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em;
 }
 
 .left-project-image-link{
@@ -1660,7 +1665,7 @@ body {
 .left-project-title{
   color: #000000;
   font-family: "Zilla Slab";
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: center;
 }
@@ -1669,12 +1674,12 @@ body {
   text-align: center;
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
-  margin-top:20px;
+  font-size: 1.125em;
+  margin-top:1.25em;
 }
 
 .left-project-button{
-  margin-top: 20px;
+  margin-top: 1.25em;
 }
 
 /* Merchandise Section */
@@ -1692,8 +1697,8 @@ body {
 }
 
 .merchandise-photo{
-  width:400px;
-  height:380px;
+  width:25em;
+  height:23.75em;
   overflow:hidden;
 }
 
@@ -1702,7 +1707,7 @@ body {
 }
 
 .merchandise-btn{
-  margin-top:30px;
+  margin-top:1.875em;
 }
 
 /*Sponsors Section */
@@ -1726,7 +1731,7 @@ body {
 }
 
 .slider-container{
-  width:400px;
+  width:25em;
   overflow:hidden;
 }
 
@@ -1736,8 +1741,8 @@ body {
 
 .active-sponsor{
   display:flex;
-  top:20px;
-  left:50px;
+  top:1.25em;
+  left:3.125em;
   display:flex;
   flex-direction: column;
   align-items:center;
@@ -1745,7 +1750,7 @@ body {
 }
 
 .sponsor-image{
-  width:250px;
+  width:15.625em;
   overflow:hidden;
 }
 
@@ -1756,26 +1761,26 @@ body {
 .sponsor-title{
   color: #000000;
   font-family: "Zilla Slab";
-  font-size: 24px;
+  font-size: 1.5em;
   font-weight: bold;
-  margin-top:30px;
+  margin-top:1.875em;
 }
 
 .sponsor-description{
   color: #000000;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
   text-align:center;
-  margin-top:15px;
+  margin-top:0.9375em;
 }
 
 .sponsor-selector{
-  margin-top:50px;
+  margin-top:3.125em;
   display:flex;
   justify-content: center;
   align-items: center;
   width:100%;
-  margin-bottom:40px;
+  margin-bottom:2.5em;
 }
 
 .sponsor-selector-list{
@@ -1787,9 +1792,9 @@ body {
 }
 
 .sponsor-selector-item{
-  width:20px;
-  height:20px;
-  border-radius:40px;
+  width:1.25em;
+  height:1.25em;
+  border-radius:2.5em;
   background-color:#F5D229;
 }
 
@@ -1812,7 +1817,7 @@ body {
 }
 
 .membership-photo{
-  width:650px;
+  width:40.625em;
 }
 
 .membership-photo-link{
@@ -1820,7 +1825,7 @@ body {
 }
 
 .membership-form{
-  width:550px;
+  width:34.375em;
   display:flex;
   align-items: center;
   justify-content: center;
@@ -1834,24 +1839,24 @@ body {
 }
 
 .form-text-input{
-  width:400px;
-  border-radius: 20px;
-  padding:10px 0px 10px 0px;
-  height:20px;
+  width:25em;
+  border-radius: 1.25em;
+  padding:0.625em 0px 0.625em 0px;
+  height:1.25em;
   background-color: #ffffff;
   border:1px solid #F5D229;
-  margin-bottom:20px;
+  margin-bottom:1.25em;
   text-align: center;
 }
 
 .form-textarea{
-  width:380px;
-  border-radius: 20px;
-  padding:10px 0px 10px 20px;
-  height:90px;
+  width:23.75em;
+  border-radius: 1.25em;
+  padding:0.625em 0px 0.625em 1.25em;
+  height:5.625em;
   background-color: #ffffff;
   border:1px solid #F5D229;
-  margin-bottom:20px;
+  margin-bottom:1.25em;
 }
 
 .form-btn{
@@ -1866,9 +1871,9 @@ body {
 
 /* Footer Styling */
 .footer{
-  margin-top:120px;
+  margin-top:7.5em;
   width:100%;
-  height:300px;
+  height:18.75em;
   background-color: #2D3436;
   display: flex;
   align-items: center;
@@ -1888,34 +1893,34 @@ body {
   display:flex;
   flex-direction: column;
   width:30%;
-  margin-top:25px;
+  margin-top:1.5625em;
 }
 
 .footer-block{
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
-  margin-bottom:25px;
+  margin-bottom:1.5625em;
 }
 
 .footer-block-title{
   color: #FEFFFF;
   font-family: Nunito;
-  font-size: 18px;
+  font-size: 1.125em;
   font-weight: bold;
-  margin-bottom:10px;
+  margin-bottom:0.625em;
 }
 
 .footer-block-text{
   color: #FEFFFF;
   font-family: Nunito;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: regular;
 }
 
 .footer-middle{
   width:30%;
-  margin-right:30px;
+  margin-right:1.875em;
 }
 
 .footer-middle-image{
@@ -1931,25 +1936,25 @@ body {
 
 .footer-block-title-big{
   font-family: "Zilla Slab";
-  font-size: 34px;
+  font-size: 2.125em;
   color:#ffffff;
   font-weight: bold;
-  margin-bottom:15px;
+  margin-bottom:0.9375em;
   text-align: right;
 }
 
 .footer-block-text-right{
   color: #FEFFFF;
   font-family: Nunito;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: regular;
   text-align: right;
-  line-height: 20px;
+  line-height: 1.25em;
 }
 
 .footer-block-btn{
-  margin-top:30px;
-  width:270px;
+  margin-top:1.875em;
+  width:16.875em;
 }
 
 }
