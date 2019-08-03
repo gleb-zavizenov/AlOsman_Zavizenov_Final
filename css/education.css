@@ -5,6 +5,10 @@
     background-position: center;
   }
 
+  .hero-option{
+    font-size:36px;
+  }
+
   .section-title{
     margin-top: 80px;
   }
@@ -15,7 +19,7 @@
     align-items: center;
     justify-content: center;
     margin-top:70px;
-    width:566px;
+    width:290px;
   }
   
   .authorities-left{
@@ -28,12 +32,13 @@
   }
   
   .authorities-left-title{
-    color: #5d7032;
-    font-family: "Zilla Slab";
-    font-size: 24px;
-    font-weight: bold;
     margin-bottom:60px;
     text-align:center;
+    color: #5d7032;
+    font-family: "Zilla Slab Medium";
+    font-size: 18px;
+    margin-top:1.875em;
+    font-weight:600;
   }
   
   .authorities-left-links-list{
@@ -47,7 +52,7 @@
   .authorities-left-link{
     color: #000000;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 15px;
     text-decoration: none;
   }
   
@@ -58,7 +63,7 @@
   
   .authorities-right{
     width:100%;
-    display:flex;
+    display:none;
     align-items: center;
     justify-content: flex-end;
     margin-bottom:40px;
@@ -83,13 +88,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-bottom:30px;
+    margin-bottom:25px;
   }
   
   .retailer-title{
     color: #9bbe4b;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     margin-bottom:5px;
   }
@@ -97,7 +102,7 @@
   .retailer-text{
     color: #000000;
     font-family: Nunito;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: regular;
   }
   
@@ -114,8 +119,8 @@
     flex-wrap: wrap;
     display:flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content:space-between;
+    align-items: center;
+    justify-content: center;
     width:100%;
     margin-bottom:30px;
   }
@@ -146,8 +151,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    margin-top:30px;
   }
   
   .fishing-links-left{
@@ -172,6 +178,7 @@
   }
   
   .fishing-links-center{
+    display: none;
     order: -1;
     width:100%;
     height:400px;
@@ -187,7 +194,7 @@
   .videos-content{
     display:flex;
     flex-direction: column;
-    width:566px;
+    width:290px;
   }
   
   .videos-line{
@@ -200,8 +207,8 @@
   }
   
   .videos-link{
-    width:550px;
-    height:350px;
+    width:290px;
+    height:200px;
     overflow:hidden;
     background-color: red;
     margin-bottom: 20px;
