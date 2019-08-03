@@ -1,4 +1,325 @@
 /* Additional styles for events page */
+@media screen and (max-width:599px){
+  .container{
+    width:290px;
+  }
+
+  body{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hamburger-line{
+    background-color: #5d7032;
+  }
+
+  .broken-image{
+    transform:rotate(180deg);  
+  }
+  
+  .header-links-events{
+    color:#000000;
+  }
+  
+  .hero-events{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-options{
+    margin-top:35px;
+    background: url("../images/headerEvents.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color:#9BBE4B;
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .hero-options-container{
+    width:290px;
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .hero-option{
+    color: #FFFFFF;
+    font-family: "Zilla Slab Medium";
+    font-size: 15px;
+    text-decoration:none;
+  }
+  
+  .hero-option:hover{
+    transition: 0.5s ease;
+    color:#F5D229;
+  }
+  
+  .events-btns{
+    margin-top: 60px;
+    width:70%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .newsletter{
+    margin-top:90px;
+    background-color:#9BBE4B;
+    margin-bottom: 0px;
+    width:100%;
+    height:250px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .newsletter-container{
+    width:290px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .newsletter-form{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-top:20px;
+  }
+  
+  .newsletter-form-text-input{
+    width:100%;
+    border-radius: 20px;
+    padding:10px 0px 10px 0px;
+    margin-bottom:10px;
+    height:20px;
+    color:#ffffff;
+    border:1px solid #F5D229;
+    text-align: center;
+    justify-content: center;
+    background: none;
+    clear:both;
+  }
+  
+  .newsletter-form-btn{
+    width: 100%;
+    border:none;
+    height:40px;
+    clear:both;
+    margin-top:0px;
+  }
+  
+  .newsletter-form-btn:hover{
+    cursor:pointer;
+    transition: 0.7s;
+    background-color: #2D3436;
+  }
+
+  .newsletter-title{
+    color: #ffffff;
+    font-family: "Zilla Slab Medium";
+    font-size: 18px;
+    text-align:center;
+    margin-top:10px;
+  }
+
+  .events-subtitle{
+    margin-top:0px;
+  }
+
+  .events-btns{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer{
+    margin-top:0px;
+  }
+}
+
+@media screen and (min-width:600px) and (max-width:1198px){
+  body{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .section-subtitle{
+    margin-top:-40px;
+  }
+
+  .broken-image{
+    transform:rotate(180deg);  
+  }
+
+  .header-links{
+    color:#000000;
+  }
+  
+  .header-links-events{
+    color:#000000;
+  }
+
+  .upcomming-events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-events{
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-options{
+    margin-top:35px;
+    background: url("../images/headerEvents.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color:#9BBE4B;
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .hero-options-container{
+    width:566px;
+    display:flex;
+    justify-content: space-between;
+  }
+  
+  .hero-option{
+    color: #FFFFFF;
+    font-family: "Zilla Slab Medium";
+    font-size: 36px;
+    text-decoration:none;
+  }
+  
+  .hero-option:hover{
+    transition: 0.5s ease;
+    color:#F5D229;
+  }
+  
+  .events-btns{
+    margin-top: 60px;
+    width:70%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .newsletter{
+    margin-top:90px;
+    background-color:#9BBE4B;
+    margin-bottom: -120px;
+    width:100%;
+    height:200px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .newsletter-container{
+    width:566px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+  }
+  
+  .newsletter-form{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items:center;
+    margin-top:40px;
+  }
+  
+  .newsletter-form-text-input{
+    width:180px;
+    border-radius: 20px;
+    padding:10px 0px 10px 0px;
+    height:20px;
+    color:#ffffff;
+    border:1px solid #F5D229;
+    margin-right:20px;
+    text-align: center;
+    justify-content: center;
+    background: none;
+    clear:both;
+  }
+  
+  .newsletter-form-btn{
+    width:190px;
+    border:none;
+    height:40px;
+    clear:both;
+    margin-top:0px;
+  }
+  
+  .newsletter-form-btn:hover{
+    cursor:pointer;
+    transition: 0.7s;
+    background-color: #2D3436;
+  }
+
+  .newsletter-title{
+    color: #ffffff;
+    font-family: "Zilla Slab Medium";
+    font-size: 36px;
+    text-align:center;
+  }
+
+  .events-subtitle{
+    text-align: center;
+  }
+
+  .events-btns{
+    width:556px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .events-btns .filled-btn-link{
+    width:270px;
+  }
+
+  .events-btns .filled-btn-link .filed-btn-inside{
+    width:270px;
+  }
+
+  .newsletter{
+    margin-bottom: 0px;
+  }
+
+  .footer{
+    margin-top:0px;
+  }
+
+}
+
+@media screen and (min-width:1199px){
+.header-links{
+  color:#000000;
+}
+
 .broken-image{
   transform:rotate(180deg);  
 }
@@ -16,6 +337,9 @@
 
 .hero-options{
   margin-top:35px;
+  background: url("../images/headerEvents.png");
+  background-size:cover;
+  background-repeat: no-repeat;
   background-color:#9BBE4B;
   width:100%;
   height:200px;
@@ -110,4 +434,5 @@
   font-family: "Zilla Slab Medium";
   font-size: 36px;
   text-align:center;
+}
 }
