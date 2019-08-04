@@ -354,3 +354,49 @@ main{
         align-items: center;
     }
 }
+
+@media screen and (min-width:1199px){
+    .history-section{
+        margin-top:40px;
+    }
+
+    .history-boxes{
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-top:20px;
+    }
+
+    .history-left, .history-center, .history-right{
+        width: 30%;
+    }
+
+    .history-center{
+        order:0;
+    }
+
+    .get-in-touch-section{
+        margin-top:-40px;
+    }
+
+    .get-in-touch-box{
+        flex-direction: row;
+        align-items: center;
+        margin-top:30px;
+    }
+
+    .get-in-touch-left{
+        order:-1;
+        margin-top:0px;
+    }
+
+    .get-in-touch-right{
+        flex-direction: column;
+    }
+
+    .footer{
+        margin-top:40px;
+    }
+
+}
