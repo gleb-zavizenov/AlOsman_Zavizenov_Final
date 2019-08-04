@@ -235,3 +235,122 @@ main{
     width:100%;
     margin-top:30px;
 }
+
+@media screen and (min-width: 600px){
+    .hero-option{
+        font-size: 36px;
+    }
+
+    .hero-option-right{
+        text-align:right;
+    }
+
+    .section-subtitle{
+        text-align: center;
+    }
+
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mission-boxes{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .mission-box{
+        width:30%;
+    }
+
+    .mission-icon{
+        height:80px;
+    }
+
+    .history-section .section-title{
+        margin-top:20px;
+    }
+
+    .history-boxes{
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .history-center{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        order: -1;
+        height: 220px;
+        margin-bottom: 30px;
+    }
+
+    .history-center img{
+        width:100%;
+    }
+
+    .history-left{
+        width:50%;
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    .history-right{
+        width:50%;
+        text-align: right;
+        align-items: center;
+    }
+
+    .team-box{
+        width:30%;
+    }
+
+    .team-boxes{
+        justify-content: space-between;
+    }
+
+    .get-in-touch-right{
+        flex-wrap:wrap;
+        height:300px;
+        align-content: space-between;
+    }
+
+    .get-in-touch-text{
+        width:50%;
+    }
+
+    .get-in-touch-map{
+        width:45%;
+        margin-top:0;
+    }
+
+    .get-in-touch-form{
+        width:70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-textarea{
+        width:100%;
+    }
+
+    .newsletter-form-text-input{
+        width:100%;
+        margin-bottom: 20px;
+        margin-right:0px;
+    }
+
+    .get-in-touch-left{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
