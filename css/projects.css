@@ -76,3 +76,75 @@
 .footer{
     margin-top:0px;
 }
+
+/* Additional styling for tablets */
+@media screen and (min-width:600px){
+    .hero-option{
+        font-size:36px;
+    }
+
+    .environmentalism-text{
+        font-size:16px;
+        margin-top:-25px;
+    }
+
+    .project-box{
+        width:278px;
+    }
+
+    .project-boxes{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width:100%;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .project-box{
+        margin-top:0px;
+    }
+
+    .project-box-img{
+        width:100%;
+    }
+
+    .project-box-text{
+        margin-top:20px;
+    }
+
+    .newsletter-form{
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .newsletter-form-text-input{
+        width:180px;
+        margin-bottom:0px;
+    }
+}
+
+@media screen and (min-width:1199px){
+    .project-box{
+        width:570px;
+    }
+
+    .project-box-img{
+        height:360px;
+    }
+
+    .newsletter{
+        margin-bottom:0px;
+    }
+
+    .newsletter-container{
+        width:1000px;
+    }
+
+    .newsletter-form-text-input{
+        width:320px;
+        margin-bottom:0px;
+    }
+}
