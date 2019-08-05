@@ -125,3 +125,26 @@
         margin-bottom:0px;
     }
 }
+
+@media screen and (min-width:1199px){
+    .project-box{
+        width:570px;
+    }
+
+    .project-box-img{
+        height:360px;
+    }
+
+    .newsletter{
+        margin-bottom:0px;
+    }
+
+    .newsletter-container{
+        width:1000px;
+    }
+
+    .newsletter-form-text-input{
+        width:320px;
+        margin-bottom:0px;
+    }
+}
