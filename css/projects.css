@@ -1,0 +1,78 @@
+/* Additional styles for Projects page */
+.hero-options{
+    background-image: url("../images/headerProjects.png");
+}
+
+.hero-option{
+    font-size:22px;
+}
+
+.hero-option-right{
+    text-align: right;
+}
+
+.hands-on-environmentalism{
+    display: flex;
+    justify-content: center;
+}
+
+.environmentalism-text{
+    font-family: "Nunito", sans-serif;
+    font-size:15px;
+    text-align:center;
+}
+
+.first-project{
+    display: flex;
+    justify-content: center;
+}
+
+.project-boxes{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.project-box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width:100%;
+    margin-bottom:30px;
+}
+
+.project-box:last-child{
+    margin-bottom: 0;
+}
+
+.project-box-img{
+    width:290px;
+    height:230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project-box-text{
+    margin-top:15px;
+    font-size:15px;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+
+.second-project{
+    display: flex;
+    justify-content: center;
+}
+
+.second-project .environmentalism-text{
+    margin-bottom:15px;
+}
+
+.footer{
+    margin-top:0px;
+}
