@@ -1,0 +1,48 @@
+/* Additional styles for Gallery page */
+.hero-options{
+    background-image: url("../images/galleryHeader.png");
+}
+
+.past-events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-images{
+    margin-top:20px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-image{
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+.events-image img{
+    width:100%;
+}
+
+.salmonid-monitoring{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0dbb1;
+}
+
+.salmonid-monitoring .section-title{
+    color:#fff;
+}
+
+.trout-hatchery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
