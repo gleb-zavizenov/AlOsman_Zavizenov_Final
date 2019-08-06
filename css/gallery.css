@@ -93,3 +93,33 @@
 .footer{
     margin-top:50px;
 }
+
+/* Styles for tablet version */
+@media screen and (min-width:599px){
+    .events-images{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:30px;
+    }
+
+    .events-image{
+        width:278px;
+    }
+}
+
+/* Styles for desktop version */
+@media screen and (min-width: 1199px){
+    .hero-options{
+        background-position-y: 30%;
+    }
+    .events-image{
+        width:270px;
+    }
+
+    .newsletters-section .section-title{
+        margin-top:50px;
+        margin-bottom: 20px;
+    }
+}
