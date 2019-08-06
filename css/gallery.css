@@ -42,7 +42,54 @@
 }
 
 .trout-hatchery{
+    width:100%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.newsletters-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-subtitle{
+    margin-top:5px;
+}
+
+.newsletters-boxes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.newsletters-box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width:32%;
+}
+
+.newsletters-box-date{
+    font-family: "Nunito",sans-serif;
+    font-weight:500;
+    font-size:15px;
+    text-align: center;
+}
+
+.newsletters-box-description{
+    font-family: "Nunito",sans-serif;
+    font-weight:300;
+    font-size:15px;
+    text-align: center;
+    margin-top:5px;
+}
+
+.footer{
+    margin-top:50px;
 }
