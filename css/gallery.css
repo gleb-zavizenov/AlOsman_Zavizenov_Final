@@ -1,0 +1,125 @@
+/* Additional styles for Gallery page */
+.hero-options{
+    background-image: url("../images/galleryHeader.png");
+}
+
+.past-events{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-images{
+    margin-top:20px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-image{
+    width:100%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:20px;
+}
+
+.events-image img{
+    width:100%;
+}
+
+.salmonid-monitoring{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0dbb1;
+}
+
+.salmonid-monitoring .section-title{
+    color:#fff;
+}
+
+.trout-hatchery{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletters-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-subtitle{
+    margin-top:5px;
+}
+
+.newsletters-boxes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.newsletters-box{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    width:32%;
+}
+
+.newsletters-box-date{
+    font-family: "Nunito",sans-serif;
+    font-weight:500;
+    font-size:15px;
+    text-align: center;
+}
+
+.newsletters-box-description{
+    font-family: "Nunito",sans-serif;
+    font-weight:300;
+    font-size:15px;
+    text-align: center;
+    margin-top:5px;
+}
+
+.footer{
+    margin-top:50px;
+}
+
+/* Styles for tablet version */
+@media screen and (min-width:599px){
+    .events-images{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom:30px;
+    }
+
+    .events-image{
+        width:278px;
+    }
+}
+
+/* Styles for desktop version */
+@media screen and (min-width: 1199px){
+    .hero-options{
+        background-position-y: 30%;
+    }
+    .events-image{
+        width:270px;
+    }
+
+    .newsletters-section .section-title{
+        margin-top:50px;
+        margin-bottom: 20px;
+    }
+}
