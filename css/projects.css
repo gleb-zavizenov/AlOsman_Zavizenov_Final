@@ -1,6 +1,6 @@
 /* Additional styles for Projects page */
 .hero-options{
-    background-image: url("../images/headerProjects.png");
+    background-image: url("../images/projectsHeader-mobile.png");
 }
 
 .hero-option{
@@ -79,6 +79,10 @@
 
 /* Additional styling for tablets */
 @media screen and (min-width:600px){
+    .hero-options{
+        background-image: url("../images/projectsHeader-tablet.png");
+    }
+
     .hero-option{
         font-size:36px;
     }
@@ -127,6 +131,10 @@
 }
 
 @media screen and (min-width:1199px){
+    .hero-options{
+        background-image: url("../images/projectsHeader-desktop.png");
+    }
+
     .project-box{
         width:570px;
     }

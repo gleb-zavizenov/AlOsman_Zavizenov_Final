@@ -8,8 +8,7 @@ main{
 }
 
 .hero-options{
-    background-image: url("../images/headerAbout.png");
-    background-position: bottom left;
+    background-image: url("../images/aboutHeader-mobile.png");
     background-size:cover;
 }
 
@@ -237,6 +236,11 @@ main{
 }
 
 @media screen and (min-width: 600px){
+    .hero-options{
+        background-image: url("../images/aboutHeader-tablet.png");
+        background-size:cover;
+    }
+
     .hero-option{
         font-size: 36px;
     }
@@ -356,6 +360,11 @@ main{
 }
 
 @media screen and (min-width:1199px){
+    .hero-options{
+        background-image: url("../images/aboutHeader-desktop.png");
+        background-size:cover;
+    }
+
     .history-section{
         margin-top:40px;
     }
