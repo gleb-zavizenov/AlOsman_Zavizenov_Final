@@ -31,7 +31,7 @@
   
   .hero-options{
     margin-top:35px;
-    background: url("../images/headerEvents.png");
+    background: url("../images/eventsHeader-mobile.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-color:#9BBE4B;
@@ -186,7 +186,8 @@
   
   .hero-options{
     margin-top:35px;
-    background: url("../images/headerEvents.png");
+    background: url("../images/headerEvents-tablet.png");
+    background-position-y: 70%;
     background-size:cover;
     background-repeat: no-repeat;
     background-color:#9BBE4B;
@@ -337,7 +338,8 @@
 
 .hero-options{
   margin-top:35px;
-  background: url("../images/headerEvents.png");
+  background: url("../images/eventsheader-desktop.png");
+  background-position: center 80%;
   background-size:cover;
   background-repeat: no-repeat;
   background-color:#9BBE4B;

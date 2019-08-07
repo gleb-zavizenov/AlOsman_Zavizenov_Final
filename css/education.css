@@ -1,8 +1,10 @@
 /* Education Page */
 @media screen and (max-width:599px){
   .hero-options{
-    background: url("../images/headerEducation.png");
+    background: url("../images/educationHeader-mobile.png");
     background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
   }
 
   .hero-option{
@@ -221,8 +223,10 @@
 
 @media screen and (min-width:600px) and (max-width:1199px){
   .hero-options{
-    background: url("../images/headerEducation.png");
+    background: url("../images/educationHeader-tablet.png");
     background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
   }
 
   .section-title{
@@ -434,8 +438,10 @@
 
 @media screen and (min-width:1200px){
 .hero-options{
-  background: url("../images/headerEducation.png");
+  background: url("../images/educationHeader-desktop.png");
   background-position:center;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .authorities-section{

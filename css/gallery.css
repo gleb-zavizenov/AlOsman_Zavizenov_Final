@@ -1,6 +1,8 @@
 /* Additional styles for Gallery page */
 .hero-options{
-    background-image: url("../images/galleryHeader.png");
+    background-image: url("../images/galleryHeader-mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .past-events{
@@ -77,7 +79,7 @@
 
 .newsletters-box-date{
     font-family: "Nunito",sans-serif;
-    font-weight:500;
+    font-weight:600;
     font-size:15px;
     text-align: center;
 }
@@ -96,6 +98,10 @@
 
 /* Styles for tablet version */
 @media screen and (min-width:599px){
+    .hero-options{
+        background-image: url("../images/galleryHeader-tablet.png");
+    }
+
     .events-images{
         flex-direction: row;
         flex-wrap: wrap;
@@ -112,8 +118,10 @@
 /* Styles for desktop version */
 @media screen and (min-width: 1199px){
     .hero-options{
-        background-position-y: 30%;
+        background-image: url("../images/galleryHeader-desktop.png");
+        background-position-y: 10%;
     }
+
     .events-image{
         width:270px;
     }
