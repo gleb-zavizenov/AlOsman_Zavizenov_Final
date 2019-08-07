@@ -56,10 +56,12 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    fill:#9bbe4b;
 }
 
 .mission-image{
     height:100%;
+    fill:#9bbe4b;
 }
 
 .mission-text{
@@ -406,6 +408,24 @@ main{
 
     .footer{
         margin-top:40px;
+    }
+
+    @keyframes water {
+        from{
+            background-position: right 0 top 70px;
+        }
+        to{
+            background-position: right -1000px top -20px;
+        }
+    }
+
+    .mission-box:hover .mission-image{
+        background-image: url("../images/water.png");
+        background-repeat: no-repeat;
+        background-position-x: right;
+        fill: #fff;
+        animation: water 8s infinite;
+        border: 3px solid black;
     }
 
 }
